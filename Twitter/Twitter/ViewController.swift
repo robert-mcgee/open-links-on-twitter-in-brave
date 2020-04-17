@@ -17,7 +17,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         super.viewDidLoad()
         
         webView = WKWebView()
-        webView?.load(URLRequest(url:URL(string: "https://mobile.twitter.com")!))
+        webView?.load(URLRequest(url:URL(string: "https://mobile.twitter.com/login")!))
     }
     
     override func viewDidAppear(_ animated: Bool) {
